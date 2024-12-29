@@ -1,6 +1,6 @@
 <script setup>
 import { reactive } from 'vue'
-import { invoice1, invoice2 } from './data/data';
+import { invoice1, invoice2 } from '../data/data';
 const data = reactive({
   sender:'',
   billTo:'',
